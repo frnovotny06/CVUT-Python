@@ -24,7 +24,7 @@ def clock(widht):
     print(" $" + j * "-" + "$")
 
 
-clock(11)
+clock(7)
 
 def middle(height, width):
     if width < 3 or width> 20:
@@ -57,7 +57,7 @@ def middle(height, width):
 
     print( u * " ", "o")
 
-middle(3, 9)
+middle(3, 5)
 
 
 def house(width, height,  character):
@@ -87,4 +87,4 @@ def house(width, height,  character):
     while o < height:
         print(" |" + (width - 2) * character + "|")
         o += 1
-house(5, 3, "k")
+house(9, 5, "o")
